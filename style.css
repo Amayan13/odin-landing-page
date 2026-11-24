@@ -10,12 +10,21 @@
 body {
     font-family: "Roboto";
     min-width: 100vw;
+    margin: 0;
 }
 
 header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #1F2937;
     color: #F9FAF8;
     font-size: 24px;
+    padding: 15px;
+}
+
+.logo {
+    margin-left: 100px;
 }
 
 a {
@@ -23,12 +32,22 @@ a {
     color:#E5E7EB;
 }
 
-ul {
+.nav-links {
     list-style: none;
+    display: flex;
+    gap: 25px;
+    margin-right: 100px;
 }
 
 .hero {
     background-color: #1F2937;
+    padding: 20px;
+}
+
+.hero-container {
+    width: 400px;
+    height: 400px;
+    margin-left: 100px;
 }
 
 .hero-title {
@@ -44,6 +63,11 @@ ul {
 
 .sign-up {
     background-color: #3882F6;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 10px 5px 5px #184285;
 }
 
 .information {
