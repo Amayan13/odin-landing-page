@@ -1,0 +1,105 @@
+.roboto-font {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+body {
+    font-family: "Roboto";
+    min-width: 100vw;
+}
+
+header {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+a {
+    text-decoration: none;
+    color:#E5E7EB;
+}
+
+ul {
+    list-style: none;
+}
+
+.hero {
+    background-color: #1F2937;
+}
+
+.hero-title {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hero-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.sign-up {
+    background-color: #3882F6;
+}
+
+.information {
+    padding: 40px;
+}
+
+.info-title {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.card-box {
+    display: flex;
+    border-radius: 10px;
+    border: 10px solid #3882F6;
+    width: 200px;
+    height: 200px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 40px;
+}
+
+.quote-figure {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.author {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: bold;
+    text-align: right;
+}
+
+.call-to-action {
+    background-color: #3882F6;
+}
