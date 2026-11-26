@@ -1,2 +1,3 @@
 # odin-landing-page
-landing page project
+My first landing page
+A TOP project
