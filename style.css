@@ -40,6 +40,9 @@ a {
 }
 
 .hero {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
     background-color: #1F2937;
     padding: 20px;
 }
@@ -48,6 +51,17 @@ a {
     width: 400px;
     height: 400px;
     margin-left: 100px;
+}
+
+.hero-image {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.star-image {
+    width: 450px;
+    height: 300px;
 }
 
 .hero-title {
